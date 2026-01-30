@@ -6,3 +6,20 @@ Kubernetes orchestrates clusters of virtual machines and schedules containers to
 Kubernetes also automatically manages service discovery, incorporates load balancing, tracks resource allocation, and scales based on compute utilization. And, it checks the health of individual resources and enables apps to self-heal by automatically restarting or replicating containers.
 Why use Kubernetes?
 Keeping containerized apps up and running can be complex because they often involve many containers deployed across different machines. Kubernetes provides a way to schedule and deploy those containers—plus scale them to your desired state and manage their lifecycles. Use Kubernetes orchestration to implement your container-based applications in a portable, scalable, and extensible way.
+
+Kubernetes
+Kubernetes, often shortened to K8s (K, 8 letters, s), is an open-source platform that automates the deployment, scaling, and management of containerized applications.
+
+Origin: Developed by Google, inspired by internal systems Borg and Omega.
+Launch: Officially released in 2014.
+CNCF Donation: Donated to the Cloud Native Computing Foundation (CNCF) in 2015, which now maintains it.
+Adoption: Widely used across major cloud providers today.
+Name Meaning: Kubernetes comes from Greek, meaning “helmsman” or “pilot”, symbolizing its role in steering applications.
+Think of Kubernetes as an orchestra conductor. Each container is a musician. While you can manage a few musicians yourself, you need a conductor to coordinate an entire orchestra to play a complex symphony. You simply give the conductor the sheet music (your desired configuration), and they ensure every musician plays their part correctly, replacing someone who falls ill and bringing in more players.
+
+Some features of K8s:
+Automated Scheduling – Efficiently places containers on nodes for optimal resource use.
+Self-Healing – Automatically restarts, replaces, and reschedules failed containers.
+Rollouts & Rollbacks – Manages application updates and reverts when needed.
+Scaling & Load Balancing – Supports horizontal scaling and distributes traffic.
+Resource Optimization – Monitors and ensures efficient resource utilization.
