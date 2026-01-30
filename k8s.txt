@@ -8,7 +8,7 @@ Why use Kubernetes?
 Keeping containerized apps up and running can be complex because they often involve many containers deployed across different machines. Kubernetes provides a way to schedule and deploy those containers—plus scale them to your desired state and manage their lifecycles. Use Kubernetes orchestration to implement your container-based applications in a portable, scalable, and extensible way.
 
 Kubernetes
-Kubernetes, often shortened to K8s (K, 8 letters, s), is an open-source platform that automates the deployment, scaling, and management of containerized applications.
+Kubernetes, often shortened to K8s, is an open-source platform that automates the deployment, scaling, and management of containerized applications.
 
 Origin: Developed by Google, inspired by internal systems Borg and Omega.
 Launch: Officially released in 2014.
